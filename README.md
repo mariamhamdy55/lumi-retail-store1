@@ -1,16 +1,84 @@
-# React + Vite
+# Lumi | Responsive Retail Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and minimalist clothing storefront built with React.js as part of a Frontend Developer Internship Assessment.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Lumi is a fashion retail homepage concept designed to deliver a clean, elegant, and responsive shopping experience. The design focuses on modern typography, a minimal aesthetic, reusable components, and interactive product browsing.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive layout for desktop, tablet, and mobile.
+- Modern navigation bar with search functionality.
+- Hero section with call-to-action buttons.
+- Product grid featuring 10 products.
+- Category filtering.
+- Search functionality.
+- Reusable React components.
+- Subtle animations and smooth scrolling.
+- Structured footer with navigation links.
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- JavaScript
+- CSS3
+- Vite
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── AnnouncementBar.jsx
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── ProductCard.jsx
+│   └── Footer.jsx
+├── data/
+│   └── products.js
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Getting Started
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mariamhamdy55/lumi-retail-store1.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd lumi-retail-store1
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Live Demo
+
+[View Lumi Live Demo](https://lumi-retail-store1.vercel.app/)
+
+## GitHub Repository
+
+[View Source Code](https://github.com/mariamhamdy55/lumi-retail-store1)
+
+---
+
+Developed as part of a Frontend Developer Internship Assessment.
